@@ -19,7 +19,7 @@ Children:
             default: '0'
             name: Output Channel (PWM)
             validators: &id003 [PWMOutput]
-            value: '2'
+            value: '0'
         Base: Speed Controller
         Name: Speed Controller 1
       - Children: []
@@ -200,7 +200,7 @@ Children:
 Properties:
   Eclipse Workspace: !!robotbuilder.data.properties.FileProperty {default: 'C:\Users\Shivam
       Shah\workspace', extension: null, folder: true, name: Eclipse Workspace, validators: null,
-    value: 'C:\Users\Shivam Shah\workspace'}
+    value: 'C:\Users\Shivam Shah\Documents\GitHub\2017Steamwork\Steamwork'}
   Export Commands: !!robotbuilder.data.properties.BooleanProperty {default: true,
     name: Export Commands, validators: null, value: true}
   Autonomous command parameters: !!robotbuilder.data.properties.ParametersProperty
