@@ -63,7 +63,7 @@ public class OI {
 
         xBox = new Joystick(0);
         
-        driveRight = new JoystickButton(xBox, 1);
+        driveRight = new JoystickButton(xBox, 5);
         driveRight.whileHeld(new DriveManual());
         driveLeft = new JoystickButton(xBox, 1);
         driveLeft.whileHeld(new DriveManual());

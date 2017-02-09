@@ -29,7 +29,7 @@ Children:
             default: Talon
             name: Type
             validators: null
-            value: TalonSRX
+            value: VictorSP
           Output Channel (PWM): !!robotbuilder.data.properties.ChoicesProperty
             choices: *id002
             default: '0'
@@ -130,7 +130,7 @@ Children:
           default: '1'
           name: Button
           validators: null
-          value: '1'
+          value: '5'
         Command: !!robotbuilder.data.properties.TypeSelectionProperty
           default: None
           name: Command
@@ -164,7 +164,9 @@ Children:
         default: []
         name: Parameters
         validators: null
-        value: []
+        value:
+        - !!robotbuilder.data.properties.ParameterDescriptor {name: DriveForward,
+          type: double}
       Requires: !!robotbuilder.data.properties.TypeSelectionProperty {default: None,
         name: Requires, type: Subsystem, validators: null, value: DriveTrain}
       Parameter presets: !!robotbuilder.data.properties.ParameterSetProperty
