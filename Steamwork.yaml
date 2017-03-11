@@ -268,6 +268,7 @@ Children:
           value: whileHeld
       Base: Joystick Button
       Name: Pneumatics Push
+<<<<<<< HEAD
     - Children: []
       Properties:
         Joystick: !!robotbuilder.data.properties.ParentProperty {default: parent,
@@ -297,6 +298,8 @@ Children:
           value: whileHeld
       Base: Joystick Button
       Name: Pneumatics Pull
+=======
+>>>>>>> origin/master
     Properties:
       Number: !!robotbuilder.data.properties.ChoicesProperty
         choices: ['0', '1', '2', '3', '4', '5']
@@ -422,8 +425,14 @@ Children:
   Base: Commands
   Name: Commands
 Properties:
+<<<<<<< HEAD
   Eclipse Workspace: !!robotbuilder.data.properties.FileProperty {default: 'C:\Users\RoboPats\workspace',
     extension: null, folder: true, name: Eclipse Workspace, validators: null, value: 'C:\Users\RoboPats\Documents\GitHub\2017Steamwork'}
+=======
+  Eclipse Workspace: !!robotbuilder.data.properties.FileProperty {default: 'C:\Users\Shivam
+      Shah\workspace', extension: null, folder: true, name: Eclipse Workspace, validators: null,
+    value: 'C:\Users\Shivam Shah\Documents\GitHub\2017Steamwork'}
+>>>>>>> origin/master
   Export Commands: !!robotbuilder.data.properties.BooleanProperty {default: true,
     name: Export Commands, validators: null, value: true}
   Autonomous command parameters: !!robotbuilder.data.properties.ParametersProperty
